@@ -24,7 +24,7 @@ lista = [1,3,-1,15,9]
 sumatorio = reduce(lambda x, y: x + y, lista)
 
 # para que reduce no coja el primer item sin aplicar el *2, debemos inicializar la lista en 0 de la siguiente manera
-#hago una copia de la lista
+#hago una copia de la lista para no alterar la original
 l = lista[:]
 #en la posicion 0 pones 0
 l.insert(0,0)
