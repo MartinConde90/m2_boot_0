@@ -4,6 +4,9 @@ def normal(x):
 def cuadrado(y):
     return y * y
 
+def cubo(x):
+    return x**3
+
 def sumaTodos(limitTo, f):
     resultado = 0
     for i in range(limitTo+1):
@@ -13,3 +16,4 @@ def sumaTodos(limitTo, f):
 
 print(sumaTodos(100, normal))
 print(sumaTodos(3, cuadrado))
+print(sumaTodos(3, cubo))
