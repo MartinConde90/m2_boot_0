@@ -14,8 +14,6 @@ class Dog(): #ésta clase es como las siguintes, pero teniendo que meter los atr
         else:
             print('Guau, guau')
     
-
-
 class Perro(): #clase
     def __init__(self, n, e, p): #constructor
         self.nombre = n #atributos
