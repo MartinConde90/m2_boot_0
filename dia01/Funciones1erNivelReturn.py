@@ -45,3 +45,8 @@ def returnF(nombre):
         return funciones[nombre]
     
     return None
+
+print(maxi(1,3,-1,15,9))
+print(mini(1,3,-1,15,9))
+print(media(1,3,-1,15,9))
+print(returnF('max')(1,3,-1,15,9))
